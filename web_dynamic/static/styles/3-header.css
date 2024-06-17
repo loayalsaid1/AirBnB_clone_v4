@@ -11,6 +11,8 @@ header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+    width: 100%;
+
 }
 
 #api_status {
@@ -23,5 +25,5 @@ header .logo {
 }
 
 .available {
-    background-color: #ff545f;
+    background-color: #ff545f !important;
 }
