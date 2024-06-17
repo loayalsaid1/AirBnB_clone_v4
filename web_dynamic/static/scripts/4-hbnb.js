@@ -62,7 +62,7 @@ $(document).ready(function () {
       url: url,
       type: 'POST',
       contentType: 'application/json',
-      data: JSON.stringify({amenities: Object.keys(zzzzzzzzzzzzzzzzzzzzzzzzzzz)}),
+      data: JSON.stringify({amenities: Object.keys(amenities_object)}),
       success: function (data) {
         $('section.places').html('')
         data.forEach(place => {
@@ -90,4 +90,5 @@ $(document).ready(function () {
       }
     });
   });
+
 });
